@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! 🎉
 This project showcases my academic background, technical skills, passions, inspirations, and personal interests, all in a single interactive and visually appealing page.
 
 ## 🔗 Live Preview
-[Click here to view my portfolio](https://your-github-username.github.io/portfolio-subha/) *(if hosted on GitHub Pages)*
+[Click here to view my portfolio] (https://subha19012005.github.io/Portfolio/) *(if hosted on GitHub Pages)*
 
 ## 📌 Features
 - Responsive navbar with smooth scrolling
