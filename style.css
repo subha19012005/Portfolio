@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+     font-family: 'Georgia', serif;
+     background-color: black;
+  color: white;
+  line-height: 1.6;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+    background-color:#111 ;
+}
+.logo{
+    font-size: 24px;
+    font-weight:bold;
+}
+.nav-links{
+    list-style: none;
+    display:flex;
+    gap:20px;
+    text-decoration: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+}
+.nav-links li a:hover{
+    color:aqua;
+}
+.hero{
+position:relative;
+ height: 100vh;
+background: url('girl.pic') no-repeat center center/cover;
+display:flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-content{
+    position:relative;
+}
+.hero-content h2{
+    font-size:42px;
+    font-weight:bold;
+}
+.underline{
+    width:60px;
+    height:4px;
+    background-color: aqua;
+    margin:10px auto;
+}
+.quote{
+    position:relative;
+    height:100vh;
+    background: url('books.jpg') no-repeat center center/cover;
+     filter: brightness(70%) grayscale(100%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:60px;
+}
+.quote-box {
+    position:relative;
+   
+  
+    color:white;
+    padding:30px;
+    border-radius:4px;
+    font-size:20px;
+    text-align: center;
+}
+.ab{
+    text-align: center;
+}
+
+.about_me{
+    margin-top:40px;
+    padding:50px;
+    position:relative;
+ height: 100vh;
+background: url('building.jpg') no-repeat center center/cover;
+     filter: brightness(70%) grayscale(100%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+.about{
+    color:white;
+
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+.passion{
+    padding:50px;
+    text-align:center;
+    color:white;
+}
+.goals{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+.goal{
+    background-color: #222;
+    padding:20px;
+    border-radius:8px;
+    width:250px;
+    color:white;
+}
+.goal img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.inspiration{
+   color:white;
+   padding:50px;
+   text-align:center;
+    
+}
+.inspo{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+.inspo-card img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    border-radius:4px;
+}
+.underline-small{
+    width:40px;
+    height:3px;
+    background-color: aqua;
+    margin:10px auto;
+}
+.footer{
+    background-color: #111;
+    text-align:center;
+    padding:20px;
+    color:white
+}
